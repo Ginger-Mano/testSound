@@ -1,0 +1,14 @@
+
+.soundDiv {
+   
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.playBtn, .stopBtn {
+    background-color: lightcoral;
+    padding: 30px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: Impact;
+}
