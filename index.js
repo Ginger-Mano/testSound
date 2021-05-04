@@ -4,6 +4,7 @@ let sound2 = new Audio('https://freesound.org/data/previews/196/196877_2526129-l
 
 
 let useSound = () => {
+
     let soundDiv = document.createElement("div")
         soundDiv.className = "soundDiv"
 
@@ -15,11 +16,15 @@ let useSound = () => {
 
     let playBtn = document.createElement('button')
         playBtn.className = "playBtn"
-        playBtn.innerText = "Play"
+        
+    let playImg = document.createElement('img')
+        playImg.className = "playImg"
+        playImg.src = "https://www.nicepng.com/png/detail/7-75606_play-button-png-image-instagram.png"
 
-    playBtn.addEventListener("click", (evt) => {
+        playBtn.addEventListener("click", (evt) => {
         sound1.play()
     })
+
 
     let stopTitle = document.createElement('h2')
         stopTitle.innerHTML = "Stop"
@@ -29,12 +34,18 @@ let useSound = () => {
 
     let stopBtn = document.createElement('button')
         stopBtn.className = "stopBtn"
-        stopBtn.innerText = "Stop"
+        
+    let stopImg = document.createElement('img')
+        stopImg.className = "stopImg"
+        stopImg.src = "https://w7.pngwing.com/pngs/909/198/png-transparent-computer-icons-font-awesome-stop-button-building-text-united-states-thumbnail.png"
 
-    stopBtn.addEventListener("click", (evt) => {
+        stopBtn.addEventListener("click", (evt) => {
         sound2.play()
     })
 
+
+    playBtn.append(playImg)
+    stopBtn.append(stopImg)
     playBtnDiv.append(playTitle, playBtn)
     stopBtnDiv.append(stopTitle, stopBtn)
     soundDiv.append(playBtnDiv, stopBtnDiv)
@@ -42,3 +53,4 @@ let useSound = () => {
 }
 
 useSound()
+

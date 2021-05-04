@@ -1,6 +1,6 @@
 
-.body{
-    background-color: rgb(229, 224, 255);
+.main{
+    background-color: rgb(172, 196, 197);
 }
 
 .soundDiv {
@@ -12,7 +12,7 @@
 }
 
 .playBtn, .stopBtn {
-    background-color: rgb(235, 245, 226);
+    background-color: rgb(255, 255, 255);
     padding: 50px;
     font-size: large;
     font-weight: lighter;
@@ -26,4 +26,14 @@
     width: 50%;
     margin: auto;
     text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fredoka One';
+  font-size: 20px;
+}
+
+.playImg, .stopImg {
+    max-width: 80%;
+    height: auto
 }
