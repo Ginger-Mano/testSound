@@ -1,14 +1,29 @@
 
+.body{
+    background-color: rgb(229, 224, 255);
+}
+
 .soundDiv {
-   
+    display: grid;
     grid-template-columns: auto auto;
-    align-items: center;
+    width: 50%;
+    margin: auto;
+   
 }
 
 .playBtn, .stopBtn {
-    background-color: lightcoral;
-    padding: 30px;
+    background-color: rgb(235, 245, 226);
+    padding: 50px;
     font-size: large;
     font-weight: lighter;
     font-family: Impact;
+   border-radius: 20%;
+   border-width: 5px;
+}
+
+.playBtnDiv, .stopBtnDiv {
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
 }
