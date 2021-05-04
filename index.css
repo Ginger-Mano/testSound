@@ -1,6 +1,26 @@
 
 .main{
     background-color: rgb(172, 196, 197);
+    text-align: center;
+}
+
+.headerDiv {
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: white;
+    font-family: 'Fredoka One';
+    font-size: 70px;
+    align-content: center;
+}
+
+.headerImg {
+    max-width: 20%;
+    height: auto;
+  
 }
 
 .soundDiv {
@@ -17,20 +37,20 @@
     font-size: large;
     font-weight: lighter;
     font-family: Impact;
-   border-radius: 20%;
-   border-width: 5px;
+    border-radius: 20%;
+    border-width: 5px;
 }
 
 .playBtnDiv, .stopBtnDiv {
-    padding: 50px;
+    padding: 25px;
     width: 50%;
     margin: auto;
     text-align: center;
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: black;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgb(231, 218, 218);
     font-family: 'Fredoka One';
-  font-size: 20px;
+    font-size: 20px;
 }
 
 .playImg, .stopImg {

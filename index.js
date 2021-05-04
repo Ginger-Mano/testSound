@@ -4,6 +4,13 @@ let sound2 = new Audio('https://freesound.org/data/previews/196/196877_2526129-l
 
 
 let useSound = () => {
+    let headerDiv = document.createElement('div')
+        headerDiv.className = "headerDiv"
+        headerDiv.innerHTML = "Click below to hear sound!"
+
+     let headerImg = document.createElement('img')
+         headerImg.className = "headerImg"
+         headerImg.src = "https://media.giphy.com/media/ZcvDsirhI10OyzSqoO/giphy.gif"   
 
     let soundDiv = document.createElement("div")
         soundDiv.className = "soundDiv"
@@ -43,13 +50,13 @@ let useSound = () => {
         sound2.play()
     })
 
-
+    
     playBtn.append(playImg)
     stopBtn.append(stopImg)
     playBtnDiv.append(playTitle, playBtn)
     stopBtnDiv.append(stopTitle, stopBtn)
     soundDiv.append(playBtnDiv, stopBtnDiv)
-    appBody.append(soundDiv)
+    appBody.append(headerDiv, soundDiv, headerImg)
 }
 
 useSound()
