@@ -6,7 +6,7 @@ let sound2 = new Audio('https://freesound.org/data/previews/196/196877_2526129-l
 let useSound = () => {
     let headerDiv = document.createElement('div')
         headerDiv.className = "headerDiv"
-        headerDiv.innerHTML = "Click below to hear sound!"
+        headerDiv.innerHTML = "Click the buttons to hear sound!"
 
      let headerImg = document.createElement('img')
          headerImg.className = "headerImg"
