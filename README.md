@@ -9,9 +9,9 @@
 ***
 
 #### Welcome everyone to my GitHub! 
-Here I'll list how to get started so you can implement some of the code and test it out yourself. 
+**Here I'll list how to get started so you can implement some of the code and test it out yourself. 
 If you haven't read my blog for this project, check it out [here](https://mcasimirian.medium.com/playing-audio-on-click-in-your-javascript-app)! 
-I describe my process for using key methods to store an audio file and playing sound, as well as resources to find a sound clip. Let's begin!
+I describe my process for using key methods to store an audio file and play sound, as well as resources to find a sound clip. Let's begin!**
 
 <br>
 
@@ -20,6 +20,7 @@ I describe my process for using key methods to store an audio file and playing s
  </div>
  
  <br>
+ <br>
 
 
 ![](https://img.shields.io/badge/Setup-informational?style=for-the-badge&logoColor=black&color=green)
@@ -27,11 +28,19 @@ I describe my process for using key methods to store an audio file and playing s
 **Git clone the repository by clicking on the green square on the right hand side of the page.** <br>
 **Type in your terminal: open index.html**
 
+<br>
+
 ![](https://img.shields.io/badge/Stack-informational?style=for-the-badge&logoColor=black&color=orange)
 
 **JavaScript** <br>
 **HTML** <br>
 **CSS** 
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/61391413/119058492-7db54300-b99c-11eb-92d1-9c88ad304b3d.gif" />
+ </div>
 
 
 
