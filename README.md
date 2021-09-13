@@ -10,7 +10,7 @@
 
 #### Welcome everyone to my GitHub! 
 Here I'll list how to get started so you can implement some of the code and test it out yourself. 
-If you haven't read my blog for this project, check it out [here](https://mcasimirian.medium.com/playing-audio-on-click-in-your-javascript-app)! 
+If you haven't read my blog for this project, check it out [here](https://mcasimirian.medium.com/playing-audio-on-click-in-your-javascript-app-72aa955068fc)! 
 I describe my process for using key methods to store an audio file and play sound, as well as resources to find a sound clip. Let's begin!
 
 <br>
